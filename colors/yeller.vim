@@ -1,5 +1,5 @@
 " Vim color file
-" yeller v1.0
+" yeller v1.0b
 " http://www.vim.org/scripts/script.php?script_id=1454
 " 
 " Maintainer:	Shawn Axsom <axs221@gmail.com>
@@ -23,14 +23,14 @@ endif
 
 let g:colors_name="yeller"
 
-hi Normal       guifg=#cbdcef guibg=#15201d   "1a1823
+hi Normal       guifg=#cbdcef guibg=#203327   "1a1823
 hi NonText      guifg=#382920 guibg=#151b15
 
 hi Folded       guibg=#201f32 guifg=#BBDDCC
-hi FoldColumn	guibg=#12201a guifg=#dbcaa5
-hi LineNr       guibg=#12201a guifg=#50c5b5 
-hi StatusLine	guibg=#2a383a guifg=#6a65fd gui=none
-hi StatusLineNC	guibg=#253535 guifg=#151318 gui=none
+hi FoldColumn	guibg=#22302f guifg=#dbcaa5
+hi LineNr       guibg=#23302d guifg=#50c5b5 
+hi StatusLine	guibg=#2c3a3a guifg=#6a955d gui=none
+hi StatusLineNC	guibg=#253835 guifg=#151318 gui=none
 hi VertSplit	guibg=#22353a guifg=grey50 gui=none
 
 " syntax highlighting """"""""""""""""""""""""""""""""""""""""
@@ -40,8 +40,8 @@ hi Title		guifg=#fb4c2f  gui=none
 hi Underlined   guifg=#fb4c5a gui=none
 
 hi Statement    guifg=#ffef60  gui=none
-hi Type			guifg=#9ad57a  gui=none
-hi Constant		guifg=#f0a05a
+hi Type			guifg=#aab56a  gui=none
+hi Constant		guifg=#f09a5a
 hi Number		guifg=#f0aa8a
 hi PreProc      guifg=#d045a3
 hi Identifier   guifg=#b08aaa
